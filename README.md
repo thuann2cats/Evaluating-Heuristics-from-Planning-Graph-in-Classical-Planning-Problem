@@ -16,7 +16,7 @@ Original instructions from the Udacity assignment can be found here: [instructio
 
 ## Analysis
 
-Here's my main observations and my attempt to explain them:
+Here are my main observations:
 
 + Across the 4 air cargo planning problems at all levels of complexity, the `greedy_best_first_search` algorithm with `h_unmet_goals` heuristic (the number of literals in the goal that still haven't been met) seems to be the best.
 
